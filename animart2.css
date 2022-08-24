@@ -1,0 +1,43 @@
+.flex{
+    display: flex;
+justify-content:  flex-end;   
+    
+}
+.flexy{
+    display: flex;
+}
+#flex{
+    display: flex;
+    justify-content: flex-start;
+}
+.home-a {
+    color:red;
+    font-size:20px ;
+    padding: 0px 10px ;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style:none ;
+    text-decoration: none;
+    font-style: italic;
+}
+.img{
+    width: 70px;
+    height:70px ;
+    border-radius: 50%;
+}
+#div{
+    width: 50px;
+    height: 250px;
+    border-color: black;
+    border: 10px;
+}
+.do{
+    display: flex;
+    justify-content: space-between;
+}
+#footer {
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-style: italic;
+}
