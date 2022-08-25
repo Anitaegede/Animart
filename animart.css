@@ -1,3 +1,6 @@
+.body{
+    background-color:gray;
+}
 .flex {
     display: flex;
     justify-content: flex-end;
@@ -44,6 +47,14 @@
     height: 250px;
     display: flex;
     flex-direction: row;
+    border-color: white;
+    object-fit: contain;
+    text-decoration: none;
+    list-style: none;
+    transition: transform 1.s;
+}
+.thingsView:hover{
+    transform: translateY(-20px);
 }
 
 .price {
@@ -53,6 +64,9 @@
     height: 42px;
     display: flex;
     justify-content: space-between;
+    background-color: grey;
+    text-decoration: solid;
+    font-weight: bold;
 }
 
 .div {
