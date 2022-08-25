@@ -31,10 +31,8 @@ justify-content:  flex-end;
     border-color: black;
     border: 10px;
 }
-.do{
-    display: flex;
-    justify-content: space-between;
-}
+
+
 #footer {
     display: flex;
     justify-content: center;
@@ -44,8 +42,16 @@ justify-content:  flex-end;
 #add{
     padding: 20px;
     width: 320px;
+    height: 10px;
     color: white;
     background-color: purple;
     border-style: none;
     font-weight: bold;
+}
+#doflex{
+    display: flex;
+    flex-direction: row;
+}
+#do{
+    display: flex;
 }
