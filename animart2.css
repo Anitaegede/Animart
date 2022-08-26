@@ -46,6 +46,7 @@ justify-content:  flex-end;
     background-color: purple;
     border-style: none;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 #doflex{
     display: flex;
@@ -57,4 +58,17 @@ justify-content:  flex-end;
 .change{
     width:  400px;
   
+}
+.home-a {
+    color: red;
+    font-size: 20px;
+    padding: 0px 10px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    font-style: italic;
+}
+.rem{
+    margin-top: 20px;
 }
