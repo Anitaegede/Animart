@@ -58,6 +58,7 @@
     padding: 2px;
     border: 1px solid black;
     margin: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0,0, 0, 0.8);
 }
 
 
@@ -103,13 +104,16 @@
 
 #footer {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: column;
     color: red;
     font-style: italic;
     width: 2000px;
     height: 250px;
     background-color: black;
+    /* margin-left: auto;
+    margin-right: auto; */
+
 }
 
 .price, .product-name-price ,#add{
@@ -129,6 +133,8 @@
     margin: 0 15px;
     display: flex;
     justify-content:baseline;
+    /* margin-left: auto;
+    margin-right: auto; */
     
  }
  #one{
@@ -139,6 +145,8 @@
     margin-inline-end: 0px;
     display: flex;
     justify-content:last baseline ;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 #add{
     padding: 20px;
@@ -150,6 +158,8 @@
     border: 20px;
     display: flex;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .doflex{
     display: flex;

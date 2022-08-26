@@ -6,6 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animart</title>
     <link rel="stylesheet" href="./animart2.css">
+    <style>
+        .card{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .8);
+            max-width: 400px;
+            margin: auto;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .price{
+            color: grey;
+            font-size: 22px;
+        }
+        .card button{
+            border: none;
+            outline: 0;
+            padding: 12px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+        }
+        .card button :hover{
+            opacity: 0.7;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -15,15 +42,15 @@
             </div>
         </section>
     </header>
-        <div class="do">
-            <img src="./headphone pic.webp" alt="">
+        <div class="card">
+            <img  class="change"  src="./headphone pic.webp" alt="">
         </div>
-        <div id="do">
+        <div  class="card">
             <p> Pink headphone.</p>
             <p>Price ₦ 4500</p>
             <p>Pink headphone.Stylish and built to work effectively</p>
+            <button id="add">Add to Cart</button>
         </div>
-        <button id="add">Add to Cart</button>
     
     <footer id="footer">C.Anita 2022</footer>
     <script src="./animart2.js"></script>

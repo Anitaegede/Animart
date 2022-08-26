@@ -42,7 +42,6 @@ justify-content:  flex-end;
 #add{
     padding: 20px;
     width: 320px;
-    height: 10px;
     color: white;
     background-color: purple;
     border-style: none;
@@ -54,4 +53,8 @@ justify-content:  flex-end;
 }
 #do{
     display: flex;
+}
+.change{
+    width:  400px;
+  
 }
