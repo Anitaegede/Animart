@@ -19,9 +19,14 @@
 }
 #add{
     padding: 20px;
-    width: 320px;
+    width: 220px;
     color: white;
     background-color: purple;
     border-style: none;
     font-weight: bold;
+    border: 20px;
+}
+.doflex{
+    display: flex;
+    flex-direction: row;
 }

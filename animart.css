@@ -1,5 +1,5 @@
 .body{
-    background-color:gray;
+    background-color:white;
 }
 .flex {
     display: flex;
@@ -53,25 +53,37 @@
     list-style: none;
     transition: transform 1.s;
 }
+
+.diva {
+    padding: 2px;
+    border: 1px solid black;
+    margin: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0,0, 0, 0.8);
+}
+
+
 .thingsView:hover{
     transform: translateY(-20px);
 }
 
-.price {
-    margin: 20px 20px;
+.product-name {
+    /* margin: 20px 20px; */
     background-color: white;
-    width: 280px;
-    height: 42px;
-    display: flex;
-    justify-content: space-between;
-    background-color: grey;
-    text-decoration: solid;
-    font-weight: bold;
+    /* width: 280px;
+    height: 42px; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* border: 3px solid black; */
+
+
 }
 
 .div {
     display: flex;
     flex-direction:row;
+    padding-left: 5px;
+    padding-right: 3px;
+
 }
 
 #inp {
@@ -80,17 +92,76 @@
 }
 
 #btn {
-    padding: 10px;
+    padding: 1px;
     color: black;
     background-color: blueviolet;
     border-style: none;
+    border-radius: 10px;
     width: 220px;
     font-style: italic;
+    font-size: 30px;
 }
 
 #footer {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     color: red;
     font-style: italic;
+    width: 2000px;
+    height: 250px;
+    background-color: black;
+    /* margin-left: auto;
+    margin-right: auto; */
+
+}
+
+.price, .product-name-price ,#add{
+    /* display: flex; */
+    /* align-content: center; */
+    text-align: center;
+    
+}
+
+.price{
+    text-decoration: solid;
+    font-weight: bold;
+}
+.fimg{
+    width: 25px;
+    height: 25px;
+    margin: 0 15px;
+    display: flex;
+    justify-content:baseline;
+    /* margin-left: auto;
+    margin-right: auto; */
+    
+ }
+ #one{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: flex;
+    justify-content:last baseline ;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+#add{
+    padding: 20px;
+    width: 220px;
+    color: white;
+    background-color: purple;
+    border-style: none;
+    font-weight: bold;
+    border: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.doflex{
+    display: flex;
+    flex-direction: row;
 }
